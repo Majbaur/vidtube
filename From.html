@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+    <link rel="shortcut icon" href="letter-f-initial-icon-logo-template_23987-54-removebg-preview.png"
+        type="letter-f-initial-icon-logo-template_23987-54-removebg-preview.png/x-icon">
+    <style>
+        body {
+            background-color: powderblue;
+        }
+        .majba{
+            text-align: center;
+            margin: 80px 80px;
+            padding: 20px 20px;
+        }
+        h2{
+            margin-top:10px;
+            color: blue;
+            text-align: center;
+        }
+        .buy-now-button{
+            background-image: linear-gradient(to bottom,#FF5898 0%, #FF136f 100%);
+            color:#fff;
+            border: none;
+            border-radius: 8px;
+            padding: 9px 25px;
+            cursor: pointer;
+
+        }
+     </style>
+</head>
+<body>
+    <section class="majba">
+        <h2>Registration From</h2> <br>
+        <form>
+            <div>
+                <label for="fullname">Full Name:</label><input type="text" name=" fullname" id="fullname" required>
+            </div><br>
+        
+            <div>
+                <label for="email">Email:</label><input type="email" name="email" id="email">
+            </div> <br>
+        
+            <div>
+                <label for="password">Password:</label><input type="password" name="password" id="password">
+            </div> <br>
+        
+            <div>
+                <label for="dob">Date Of Brith:</label><input type="date" name="dob" id="dob">
+            </div> <br>
+        
+            <div class="photo">
+                <label for="photo">Choose Your Photo:</label><input type="file" name="photo" id="photo">
+            </div> <br>
+        
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="gender" value="male">Male
+                <input type="radio" name="gender" id="gender" value="female">Female
+            </div> <br>
+        
+            <div>
+                <label for="religion">Religion:</label>
+                <input checked type="checkbox" name="c1" id="muslim" value="islam">Islam
+                <input type="checkbox" name="c1" id="hindu" value="hindu">Hindu
+            </div> <br>
+        
+            <div>
+                <label for="department">Department</label>
+                <select name="department">
+                    <option value="cse" selected>CSE</option>
+                    <option value="eee">EEE</option>
+                    <option value="llb">LLB</option>
+                </select>
+            </div><br>
+        
+            <div>
+                <label for="message">Message</label><br>
+                <textarea cols="50" rows="20"></textarea>
+            </div><br>
+
+            <div>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </div>
+
+            <button class="buy-now-button">Register</button>
+            <button class="buy-now-button">Clear</button>
+            
+        </form>
+    </section>
+</body>
+</html>
